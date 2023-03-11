@@ -91,12 +91,14 @@ body {
 
 .publication-video {
     position: relative;
-    width: 100%;
+    /*width: 100%;*/
+    margin: auto;
+    width: 1400px;
     height: 0;
-    padding-bottom: 56.25%;
-
-    overflow: hidden;
+    padding-bottom: 50%;
+    /*overflow: hidden;*/
     border-radius: 10px !important;
+    overflow:scroll;
 }
 
 .publication-video iframe {
@@ -133,5 +135,90 @@ body {
   font-size: smaller;
 }
 
+/*img {*/
+/*  border-radius: 50%;*/
+/*}*/
+
+/*#####*/
+
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.publication-flipped {
+    position: relative;
+    /*width: 100%;*/
+    margin: auto;
+    width: 900px;
+    height: 0;
+    padding-bottom: 45%;
+    /*overflow: hidden;*/
+    border-radius: 10px !important;
+    /*overflow:scroll;*/
+}
 
 
+
+.flip-box-container{
+    display: table;
+}
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    display: table-cell;
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+    /*text-align: center;*/
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+    /*text-align: center;*/
+  background-color: #bbb;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+
+/*box for tasks*/
+.task-title-box {
+    position: relative;
+      left: auto;
+  top: auto;
+  background-color: #bbb;
+  width: 600px;
+  height: 50px;
+    border-radius: 10px !important;
+  /*border: 1px solid #f1f1f1;*/
+  /*perspective: 1000px; !* Remove this if you don't want the 3D effect *!*/
+  /*  display: table-cell;*/
+}

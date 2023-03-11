@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Academic Project Page</title>
+  <title>WHOOPS! Benchmark </title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -46,52 +46,40 @@
 </head>
 <body>
 
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">-->
 
   <section class="hero">
     <div class="hero-body">
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">Breaking Common Sense: WHOOPS!<img src="static/images/favicon.ico"  style="width: 6%; height: 6%"/> <br>
+                A Vision-and-Language Benchmark of Synthetic and Compositional Images</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+                <a href="https://www.linkedin.com/in/nitzan-guetta-34a0021b5/" target="_blank">Nitzan Guetta Bitton</a><sup>*</sup>,&nbsp;</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
+                  <a href="https://yonatanbitton.github.io/" target="_blank">Yonatan Bitton</a><sup>*</sup>,&nbsp;</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
+                    <a href="https://jmhessel.com/" target="_blank">Jack Hessel</a>,&nbsp;</span><br>
+                    <span class="author-block">
+                      <a href="https://people.csail.mit.edu/ludwigs/" target="_blank">Ludwig Schmidt</a>,&nbsp;</span>
+                      <span class="author-block">
+                        <a href="https://cyber.bgu.ac.il/yuval/" target="_blank">Yuval Elovici</a>,&nbsp;</span>
+                        <span class="author-block">
+                          <a href="https://gabrielstanovsky.github.io/" target="_blank">Gabriel Stanovsky</a>,&nbsp;</span>
+                          <span class="author-block">
+                            <a href="https://schwartz-lab-huji.github.io/" target="_blank">Roy Schwartz</a>,&nbsp;</span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="author-block">Ben Gurion University of the Negev,&nbsp;&nbsp;</span>
+                    <span class="author-block">The Hebrew University of Jerusalem,</span><br>
+                    <span class="author-block">Allen Institute for Artificial Intelligence,&nbsp;&nbsp;</span>
+                    <span class="author-block">University of Washington</span>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Equal Contribution</small></span>
                   </div>
-
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- Arxiv PDF link -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
-
-                    <!-- Supplementary PDF link -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
 
                   <!-- Github link -->
                   <span class="link-block">
@@ -114,6 +102,18 @@
                   <span>arXiv</span>
                 </a>
               </span>
+
+                <!-- HuggingFace Link -->
+                <span class="link-block">
+                  <a href="https://huggingface.co/datasets/nlphuji/whoops" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <p style="font-size:20px">&#x1F917;</p>
+                  </span>
+                  <span>Dataset</span>
+                </a>
+              </span>
+
             </div>
           </div>
         </div>
@@ -122,34 +122,53 @@
   </div>
 </section>
 
-
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
-
 <!-- Paper abstract -->
 <section class="section hero is-light">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
+      <div class="publication-flipped">
+        <h2 class="title is-3">What makes these images weird?</h2>
         <div class="content has-text-justified">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
-          </p>
+<!--            CLICK TO GET AN ANSWER!-->
+        <div class="flip-box-container">
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="static/images/nitzangu_Albert_Einstein_holds_an_iphone_realistic_style_ba15ea7b-b829-478b-adef-b474ccf01a2a.png" alt="Paris" style="width:300px;height:300px">
+              </div>
+              <div class="flip-box-back">
+                <h2><br><br>Albert Einstein is holding a smartphone</h2>
+                <p class="has-text-weight-bold">Albert Einstein died in 1955, decades before the first smartphone was invented (1994)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="static/images/712a29029099a1a4a85139666a6d6062407eb4511fa0d48789001413678ac91a.png" alt="Paris" style="width:300px;height:300px">
+              </div>
+              <div class="flip-box-back">
+                <h2><br><br>A lit candle is sitting inside a tightly sealed glass jar</h2>
+                <p class="has-text-weight-bold">A candle needs a constant supply of oxygen to burn, which does not exist in a sealed bottle, so it is unlikely to see a burning candle inside a sealed bottle</p>
+              </div>
+            </div>
+          </div>
+
+         <div class="flip-box">
+            <div class="flip-box-inner">
+              <div class="flip-box-front">
+                <img src="static/images/1dfcec6aaf52317654922201bfdc1fb40cd0ab130144424f54ac26c3f5f3a082.png" alt="Paris" style="width:300px;height:300px">
+              </div>
+              <div class="flip-box-back">
+                <h2><br><br>A wolf howls at the sun</h2>
+                <p class="has-text-weight-bold">Wolves are known to howl on a full moon, so it may not be customary to do it in the middle of the day</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+<!--        </p>-->
         </div>
       </div>
     </div>
@@ -158,39 +177,87 @@
 <!-- End paper abstract -->
 
 
+
 <!-- Image carousel -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
+
        <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
+         <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
+           Abstract
+           </h2>
+         <h3 class="subtitle is-size-4-tablet has-text-left has-background-info-light pr-4 pl-4 pt-3 pb-3">
+         <p>
+         Weird, unusual, and uncanny images pique the curiosity of observers because they challenge commonsense.
+           <br>For example, an image released during the 2022 world cup depicts the famous soccer stars Lionel Messi and Cristiano Ronaldo playing chess, which playfully violates our expectation that their competition should occur on the football field.
+           Humans can easily recognize and interpret these unconventional images, but can AI models do the same? We introduce WHOOPS!, a new dataset and benchmark for visual commonsense. The dataset is comprised of purposefully commonsense-defying images created by designers using publicly-available image generation tools like Midjourney.
+           <br>We consider several tasks posed over the dataset. In addition to image captioning, cross-modal matching, and visual question answering, we introduce a difficult explanation generation task, where models must identify and explain why a given image is unusual.
+           <br>Our results show that state-of-the-art models such as GPT3 and BLIP2 still lag behind human performance on WHOOPS!. We hope our dataset will inspire the development of AI models with stronger visual commonsense reasoning abilities.
+         </p>
+         </h3>
       </div>
+
       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
+         <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
+           Collecting Weird Images
+           </h2>
+         <h3 class="subtitle is-size-4-tablet has-text-left pr-4 pl-4 pt-3 pb-3">
+         <p>
+         WHOOPS! is a dataset of 500 synthetic images and 10,874 annotations designed to challenge AI models' ability to reason about commonsense and compositionality. To construct WHOOPS!, we collaborate with designers who use text-to-image models such as Midjourney and DALL-E to generate images that would be challenging (or even impossible) to collect otherwise.
+         WHOOPS! contains commonsense-defying image from a wide range of reasons, deviations from expected social norms and everyday knowledge.
+           <br><br>
+           <img src="static/images/clusters.png"  alt="MY ALT TEXT"/>
+         </p>
+         </h3>
       </div>
+
       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
+         <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
+           Using Weird Images to Create V&L Tasks
+           </h2>
+         <h3 class="subtitle is-size-4-tablet has-text-left pr-4 pl-4 pt-3 pb-3">
+         <p>
+         The WHOOPS! benchmark includes four tasks:
+            <ol class="pr-2 pl-6">
+              <li>A novel task of explanation-of-violation: generating a detailed explanation for what makes the image weird</li>
+              <li>Generating a literal caption</li>
+              <li>Distinguishing between detailed and underspecified captions</li>
+             <li>Answering questions that test compositional understanding</li>
+            </ol>
+             <br><br>
+           <img src="static/images/benchmarking.png"/>
+         </p>
+         </h3>
+      </div>
+
+      <div class="item">
+         <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
+           Test Results for Explanation-of-violation
+           </h2>
+         <h3 class="subtitle is-size-4-tablet has-text-left pr-4 pl-4 pt-3 pb-3">
+           <p>Models significantly lag behind human performance. For example, on identification, the best end-to-end fine-tuned BLIP2 FlanT5-XXL model achieves at best 73%. For explanation, even the oracle model (which is given access to a ground-truth, human-authored description of the image) only achieves a performance of 68%, falling substantially short of human performance (95%). These results indicate that our dataset provides a challenging benchmark for the development of next-generation vision-and-language models.</p>
+         <p style="text-align:center;">
+           <br><br>
+           <img src="static/images/Tb1.png"  style="width: 80%; height: 80%"/>
+         </p>
+         </h3>
+      </div>
+
+      <div class="item">
+        <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
+           Test Results for Image Captioning, Cross-Modal Matching and Visual Question Answering
+           </h2>
+         <h3 class="subtitle is-size-4-tablet has-text-left pr-4 pl-4 pt-3 pb-3">
+           <p>The zero-shot results highlight the strengths and weaknesses of each model. Zero-shot BLIP2 demonstrates a substantial improvement over the other models. But even the supervised models have significant room for improvement, especially in VQA (maximum BEM score is 57%) and image captioning
+           </p>
+         <p style="text-align:center;">
+           <br><br>
+           <img src="static/images/Tb2.png"  style="width: 80%; height: 80%"/>
+         </p>
+         </h3>
+      </div>
   </div>
 </div>
 </div>
@@ -199,80 +266,51 @@
 
 
 
-
+<script type="module" src="https://gradio.s3-us-west-2.amazonaws.com/3.16.2/gradio.js"></script>
 <!-- Youtube video -->
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
       <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
       <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
           <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <gradio-app src="https://nlphuji-whoops-explorer.hf.space"></gradio-app>
           </div>
         </div>
       </div>
     </div>
-  </div>
 </section>
 <!-- End youtube video -->
 
-
-<!-- Video carousel -->
+<!-- Youtube video -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
+      <h3 class="subtitle is-size-4-tablet has-background-info-light has-text-left pr-4 pl-4 pt-3 pb-3">
+      We collect <i>normal</i> (synthetic, not weird) and <i>natural</i> (non-synthetic, not weird) images to investigate the main challenge in WHOOPS!. BLIP2 model performs well on <i>non-weird</i> cases but struggles on weird ones, indicating that weirdness is the primary challenge, not synthesis.
+      </h3>
+      <div class="columns is-centered has-text-centered">
+          <div class="publication-video">
+            <iframe src="https://nlphuji-wmtis-explorer-identify.hf.space" frameborder="0" width="850" height="450"></iframe>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 </section>
-<!-- End video carousel -->
-
-
-
-
 
 
 <!-- Paper poster -->
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+      <h2 class="title">Paper</h2>
+      <iframe  src="static/pdfs/WHOOPS_paper.pdf" width="100%" height="550">
           </iframe>
         
       </div>
     </div>
   </section>
 <!--End paper poster -->
-
 
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
@@ -283,17 +321,16 @@
 </section>
 <!--End BibTex citation -->
 
-
   <footer class="footer">
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
 
-          <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>.
-            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+          <p style="color:gray;font-size:9.9px;">
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>, is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
             Commons Attribution-ShareAlike 4.0 International License</a>.
+            <a href="https://www.flaticon.com/free-icons/magic" title="magic icons">Magic icons created by Freepik - Flaticon</a>
           </p>
 
         </div>
@@ -307,6 +344,5 @@
 <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
 
     <!-- End of Statcounter Code -->
-
   </body>
   </html>

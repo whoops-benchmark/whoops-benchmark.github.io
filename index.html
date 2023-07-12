@@ -343,179 +343,18 @@
   </section>
 <!--End paper poster -->
 
+<script
+	type="module"
+	src="https://gradio.s3-us-west-2.amazonaws.com/3.36.1/gradio.js"></script>
 <!-- Youtube video -->
 <section class="hero is-small">
-  <div class="hero-body">
+    <div class="hero-body">
     <div class="container">
-      <h3 class="subtitle is-size-1-tablet has-text-weight-bold has-text-centered pr-4 pl-4 pt-3 pb-3">
-        Leaderboard
-      </h3>
-      <h3 class="subtitle is-size-5-tablet has-text-weight-bold">
-        To submit your results to the leaderboard, please send a mail to: <a href="mailto:yonatanbitton1@gmail.com">yonatanbitton1@gmail.com</a>.
-      </h3>
-      WHOOPS! benchmark presents 4 tasks: Explanation-of-violation, Image Captioning, Image-text Matching and Visual Quesion Answering (VQA).
-      <br>
-      Evaluation colab implemented for 3 tasks: Image Captioning, Image-text Matching and VQA.
-      <br>
-      The task of Explanation-of-violation is currently using human evaluation. Do you want to compute your results on this task? please send us <a href="mailto:yonatanbitton1@gmail.com">mail</a>.
-      <br>
-      <br>
-      <div class="grid-container">
-        <div class="item1">
-          <h3 class="subtitle is-size-4-tablet has-text-weight-bold has-background-info-light has-text-info has-text-centered ml-1 mr-1 pt-3 pb-3">
-          Image Captioning
-          </h3>
-        </div>
-        <div class="item2">
-          <h3 class="subtitle is-size-4-tablet has-text-weight-bold has-background-info-light has-text-info has-text-centered ml-1 mr-1 pt-3 pb-3">
-          Image-Text Matching
-          </h3>
-        </div>
-        <div class="item3">
-          <h3 class="subtitle is-size-4-tablet has-text-weight-bold has-background-info-light has-text-info has-text-centered ml-1 mr-1 pt-3 pb-3">
-          Visual Question Answering
-          </h3>
-        </div>
-        <div class="item4">
-          <h3 class="subtitle is-size-4-tablet has-text-weight-bold has-background-info-light has-text-info has-text-centered ml-1 mr-1 pt-3 pb-3">
-          Explanation of Violation
-          </h3>
-        </div>
-<!--        <div class="grid-item-container">-->
-        <div class="item61">
-          <h3 class="subtitle is-size-6-tablet has-background-success-light has-text-success has-text-centered ml-1 mr-1 mt-1 mb-1 pt-3 pb-3">
-          BLIP2 FlanT5-XXL FT
-          </h3>
-        </div>
-        <div class="item51">
-          <h3 class="subtitle is-size-6-tablet has-background-success-light has-text-success has-text-centered ml-1 mr-1 mt-1 mb-1 pt-3 pb-3">
-          177
-          </h3>
-        </div>
-
-        <div class="item62">
-          <h3 class="subtitle is-size-6-tablet has-background-success-light has-text-success has-text-centered ml-1 mr-1 mt-1 mb-1 pt-3 pb-3">
-          BLIP2 FlanT5-XXL Text-only FT
-          </h3>
-        </div>
-        <div class="item52">
-          <h3 class="subtitle is-size-6-tablet has-background-success-light has-text-success has-text-centered ml-1 mr-1 mt-1 mb-1 pt-3 pb-3">
-          94
-          </h3>
-        </div>
-        <div class="item63">
-          <h3 class="subtitle is-size-6-tablet has-background-success-light has-text-success has-text-centered ml-1 mr-1 mt-1 mb-1 pt-3 pb-3">
-          BLIP2 FlanT5-XXL FT
-          </h3>
-        </div>
-        <div class="item53">
-          <h3 class="subtitle is-size-6-tablet has-background-success-light has-text-success has-text-centered ml-1 mr-1 mt-1 mb-1 pt-3 pb-3">
-          57
-          </h3>
-        </div>
-        <div class="item64">
-          <h3 class="subtitle is-size-6-tablet has-background-success-light has-text-success has-text-centered ml-1 mr-1 mt-1 mb-1 pt-3 pb-3">
-          Ground-truth Caption → GPT3 (Oracle)
-          </h3>
-        </div>
-        <div class="item54">
-          <h3 class="subtitle is-size-6-tablet has-background-success-light has-text-success has-text-centered ml-1 mr-1 mt-1 mb-1 pt-3 pb-3">
-          94
-          </h3>
-        </div>
-        <div class="item81">
-          <h3 class="subtitle is-size-6-tablet has-background-primary-light has-text-primary has-text-centered ml-1 mr-1 mt-1 mb-1 pt-3 pb-3">
-          BLIP2 FlanT5-XL FT
-          </h3>
-        </div>
-                <div class="item71">
-          <h3 class="subtitle is-size-6-tablet has-background-primary-light has-text-primary has-text-centered ml-1 mr-1 mt-1 mb-1 pt-3 pb-3">
-          174
-          </h3>
-        </div>
-        <div class="item82">
-          <h3 class="subtitle is-size-6-tablet has-background-primary-light has-text-primary has-text-centered ml-1 mr-1 mt-1 mb-1 pt-3 pb-3">
-          BLIP2 FlanT5-XXL FT
-          </h3>
-        </div>
-                <div class="item72">
-          <h3 class="subtitle is-size-6-tablet has-background-primary-light has-text-primary has-text-centered ml-1 mr-1 mt-1 mb-1 pt-3 pb-3">
-          84
-          </h3>
-        </div>
-        <div class="item83">
-          <h3 class="subtitle is-size-6-tablet has-background-primary-light has-text-primary has-text-centered ml-1 mr-1 mt-1 mb-1 pt-3 pb-3">
-          BLIP2 FlanT5-XL FT
-          </h3>
-        </div>
-                <div class="item73">
-          <h3 class="subtitle is-size-6-tablet has-background-primary-light has-text-primary has-text-centered ml-1 mr-1 mt-1 mb-1 pt-3 pb-3">
-          55
-          </h3>
-        </div>
-        <div class="item84">
-          <h3 class="subtitle is-size-6-tablet has-background-primary-light has-text-primary has-text-centered ml-1 mr-1 mt-1 mb-1 pt-3 pb-3">
-          Predicted Caption → GPT3
-          </h3>
-        </div>
-                <div class="item74">
-          <h3 class="subtitle is-size-6-tablet has-background-primary-light has-text-primary has-text-centered ml-1 mr-1 mt-1 mb-1 pt-3 pb-3">
-          33
-          </h3>
-        </div>
-        <div class="item101">
-          <h3 class="subtitle is-size-6-tablet has-background-warning-light has-text-warning has-text-centered ml-1 mr-1 mt-1 mb-1 pt-3 pb-3">
-          BLIP2 FlanT5-XXL
-          </h3>
-        </div>
-                <div class="item91">
-          <h3 class="subtitle is-size-6-tablet has-background-warning-light has-text-warning has-text-centered ml-1 mr-1 mt-1 mb-1 pt-3 pb-3">
-          120
-          </h3>
-        </div>
-        <div class="item102">
-          <h3 class="subtitle is-size-6-tablet has-background-warning-light has-text-warning has-text-centered ml-1 mr-1 mt-1 mb-1 pt-3 pb-3">
-          BLIP2 FlanT5-XL FT
-          </h3>
-        </div>
-                <div class="item92">
-          <h3 class="subtitle is-size-6-tablet has-background-warning-light has-text-warning has-text-centered ml-1 mr-1 mt-1 mb-1 pt-3 pb-3">
-          81
-          </h3>
-        </div>
-        <div class="item103">
-          <h3 class="subtitle is-size-6-tablet has-background-warning-light has-text-warning has-text-centered ml-1 mr-1 mt-1 mb-1 pt-3 pb-3">
-          BLIP2 FlanT5-XXL
-          </h3>
-        </div>
-                <div class="item93">
-          <h3 class="subtitle is-size-6-tablet has-background-warning-light has-text-warning has-text-centered ml-1 mr-1 mt-1 mb-1 pt-3 pb-3">
-          55
-          </h3>
-        </div>
-        <div class="item104">
-          <h3 class="subtitle is-size-6-tablet has-background-warning-light has-text-warning has-text-centered ml-1 mr-1 mt-1 mb-1 pt-3 pb-3">
-          BLIP2 FlanT5-XXL FT
-          </h3>
-        </div>
-                <div class="item94">
-          <h3 class="subtitle is-size-6-tablet has-background-warning-light has-text-warning has-text-centered ml-1 mr-1 mt-1 mb-1 pt-3 pb-3">
-          27
-          </h3>
-        </div>
-      </div>
-
-<!--      <div class="columns is-centered has-text-centered">-->
-<!--        <h3 class="subtitle is-size-4-tablet has-background-info-light has-text-info has-text-centered">-->
-<!--      LEADER BOARD-->
-<!--      </h3>-->
-<!--        <h3 class="subtitle is-size-4-tablet has-background-info-light has-text-info has-text-centered">-->
-<!--      LEADER BOARD-->
-<!--      </h3>-->
-
-<!--        <h3 class="subtitle is-size-4-tablet has-background-info-light has-text-info has-text-centered">-->
-<!--      LEADER BOARD-->
-<!--      </h3>-->
+      <!-- Paper video. -->
+      <div class="columns is-centered has-text-centered">
+          <div class="publication-video">
+            <gradio-app src="https://nlphuji-whoops-leaderboard.hf.space"></gradio-app>
+          </div>
         </div>
       </div>
     </div>

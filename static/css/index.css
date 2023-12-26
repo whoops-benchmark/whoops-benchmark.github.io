@@ -281,3 +281,11 @@ body {
 margin-right: 25px;
 }
 
+.center_caro_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
